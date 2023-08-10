@@ -1,4 +1,5 @@
 #include <stdio.h>
+// This program prints a specific string using the puts function.
 
 int main(void)
 {
