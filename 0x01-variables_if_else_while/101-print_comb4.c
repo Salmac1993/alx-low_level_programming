@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Print all possible combinations of three-digit numbers without repitition.
+ * Description: Print all possible combinations of three-digit numbers.
  *
  * Return: Always 0 (Success)
  */
