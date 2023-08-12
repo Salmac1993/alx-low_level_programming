@@ -1,15 +1,22 @@
 #include <stdio.h>
 
-int main() {
-char c = 'a';
-putchar(c);
+/**
+*main - Entery point
+*
+*Description: print all alphabet letters
+*
+* Return: 0 (Success)
+*/
 
-while (c < 'z') {
-c++;
-putchar(c);
-}
 
+int main(void)
+{
+char ch = 'a';
+  while (ch <= 'z')
+    {
+putchar(ch);
+      ch++;
+    }
 putchar('\n');
-
-return 0;
+return (0);
 }
