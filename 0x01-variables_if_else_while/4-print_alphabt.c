@@ -1,10 +1,21 @@
 #include <stdio.h>
 
-int main() {
+/**
+ * main - Entry point
+ *
+ * Description: Print the lowercase alphabet excluding 'q' and 'e',
+ * followed by a newline character.
+ *
+ * Return: 0 (Success)
+ */
+int main(void)
+{
 char c = 'a';
 
-while (c <= 'z') {
-if (c != 'q' && c != 'e') {
+while (c <= 'z')
+{
+if (c != 'q' && c != 'e')
+{
 putchar(c);
 }
 c++;
@@ -12,5 +23,5 @@ c++;
 
 putchar('\n');
 
-return 0;
+return (0);
 }
