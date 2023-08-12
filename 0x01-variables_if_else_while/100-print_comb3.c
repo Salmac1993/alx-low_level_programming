@@ -3,8 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Print all possible combinations of two-digit numbers without repetition,
- * separated by commas and spaces, followed by a newline character.
+ * Description: Print all possible combinations of two-digits.
  *
  * Return: 0 (Success)
  */
